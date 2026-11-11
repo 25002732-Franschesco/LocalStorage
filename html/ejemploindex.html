@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+<body>
+    <h1>LocalStorage en JavaScript</h1>
+    <h2>API del Navegador</h2>
+    <p>Mi Nombre es:</p>
+    <p id="resultado"></p>
+
+
+
+    <script>
+        //Guardar informacion de manera local
+
+        localStorage.setItem("Nombre","Paquito");
+
+
+        //let user = localStorage.getItem("Nombre");
+
+        //console.log(user);
+        
+        document.getElementById("resultado").innerHTML = localStorage.getItem("Nombre");
+
+        localStorage.removeItem("Nombre");
+        console.log(user);
+    </script>
+</body>
+</html>
