@@ -33,7 +33,7 @@ function mostrarTareas(){
     const tareas = obtenerTareas();
     
     for (let i = 0; i < tareas.length; i++) {
-        list.innerHTML += "<li>" + tareas[i] + " <button>XX</button></li>";
+        list.innerHTML += "<li>" + tareas[i];
     }
 }
 
